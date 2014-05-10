@@ -1,0 +1,129 @@
+$jumbotron-bg: #ecf0f1;
+@import 'bootstrap';
+@import url(http://fonts.googleapis.com/css?family=Roboto:900);
+
+.section
+{
+	text-align: center;
+	margin: 0px;
+	background-size: cover;
+	font-family: 'Roboto', Tahoma, sans-serif;
+	color: #ecf0f1;
+}
+
+.black{
+	color: #2c3e50;
+}
+
+.styled{
+	font-style: italic;
+}
+
+h1.black{
+	color: #2c3e50;
+}
+
+p.medium
+{
+	font-family: "Big Caslon", Helvetica, serif;
+	font-size: 30px;
+	font-style: italic;
+}
+
+#one
+{
+	height: 760px;
+	background-image: url("http://www.marketcalls.in/wp-content/uploads/2013/01/Crowd1.jpg");
+}
+
+#two
+{
+	height: 760px;
+}
+
+#three
+{
+	height: 760px;
+	background-image: url("http://geogenit.com/wp-content/uploads/2013/08/blurred-surface-ipad-wallpaper.png");
+}
+
+#four
+{
+	height: 760px;
+}
+
+#five
+{
+	height: 760px;
+	background-image: url("http://hqdesktop.net/wallpapers/l/1440x900/69/bokeh_gaussian_blur_blurred_background_1440x900_68109.jpg")
+}
+
+#six
+{
+	height: 760px;
+}
+
+#seven
+{
+	height: 760px;
+	background-image: url("http://wallpapersus.com/wp-content/uploads/2012/01/another-dark-day-wallpaper-image-landscape.jpg")
+}
+
+#eight
+{
+	height: 760px;
+}
+.vertical-center {
+  height:100%;
+  width:100%;
+  text-align: center;  /* align the inline(-block) elements horizontally */
+}
+
+.bar{
+	background: transparent;
+    border: none;
+    height:100px;
+    width:100%;
+    position: relative;
+    bottom: 30px;
+    opacity: 0.3;
+    filter: alpha(opacity=60);
+}
+
+.bar:hover{
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.down{
+	color: #ffffff;
+	font-family: Helvetica,sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.down:hover{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.invert{
+	filter: sepia(0);
+	-webkit-filter: sepia(0);
+	-moz-filter: sepia(0);
+	-o-filter: sepia(0);
+	-ms-filter: sepia(0);
+}
+
+.vertical-center:before {    /* create a full-height inline block pseudo=element */
+  content: ' ';
+  display: inline-block;
+  vertical-align: middle;  /* vertical alignment of the inline element */
+  height: 100%;
+}
+
+.vertical-center > .container {
+  max-width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  }
