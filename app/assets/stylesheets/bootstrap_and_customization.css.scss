@@ -1,6 +1,15 @@
 $jumbotron-bg: #ecf0f1;
 @import 'bootstrap';
 @import url(http://fonts.googleapis.com/css?family=Roboto:900);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+html, body{
+	height:100%;
+}
+.panel-mine > .panel-heading{
+	background-color: #57BCDB;
+}
+
 
 .section
 {
@@ -23,55 +32,86 @@ h1.black{
 	color: #2c3e50;
 }
 
+h2{
+	font-family: "Raleway", Tahoma, sans-serif;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+h2.enhanced{
+	font-family: Arial, 'Raleway', sans-serif;
+	font-size: 40px;
+}
+
 p.medium
 {
-	font-family: "Big Caslon", Helvetica, serif;
+	font-family: "Raleway", Helvetica, serif;
 	font-size: 30px;
 	font-style: italic;
 }
 
+p.small
+{
+	font-family: "Raleway", Helvetica, serif;
+	font-size: 23px;
+}
+
+a.bold
+{
+
+}
+
+a.brand
+{
+	font-family: "Roboto", Tahoma, sans-serif;
+	font-size: 20px;
+}
+
 #one
 {
-	height: 760px;
-	background-image: url("http://www.marketcalls.in/wp-content/uploads/2013/01/Crowd1.jpg");
+	height: 98%;
+	position: relative;
+	background-image: url("/images/crowd.jpg");
 }
 
 #two
 {
-	height: 760px;
+	height: 98%;
 }
 
 #three
 {
-	height: 760px;
-	background-image: url("http://geogenit.com/wp-content/uploads/2013/08/blurred-surface-ipad-wallpaper.png");
+	height: 98%;
+	background-image: url("/images/blur.png");
 }
 
 #four
 {
-	height: 760px;
+	height: 180%;
 }
 
 #five
 {
-	height: 760px;
-	background-image: url("http://hqdesktop.net/wallpapers/l/1440x900/69/bokeh_gaussian_blur_blurred_background_1440x900_68109.jpg")
+	height: 98%;
+	background-image: url("/images/gaussian.jpg")
 }
 
 #six
 {
-	height: 760px;
+	height: 98%;
+	overflow: auto;
 }
 
 #seven
 {
-	height: 760px;
-	background-image: url("http://wallpapersus.com/wp-content/uploads/2012/01/another-dark-day-wallpaper-image-landscape.jpg")
+	height: 98%;
+	background-image: url("/images/dark.jpg")
 }
 
 #eight
 {
-	height: 760px;
+	height: 100%;
+	background-color: #ffffff;
 }
 .vertical-center {
   height:100%;
@@ -95,6 +135,34 @@ p.medium
 	filter: alpha(opacity=100);
 }
 
+.translucent{
+	opacity: 0.70;
+	filter: alpha(opacity=70);
+}
+
+.translucent:hover{
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.navbar-nav > li > a {
+	padding-top:5px !important;
+	padding-bottom:5px !important;
+}
+
+.navbar {
+	min-height:32px !important
+}
+
+@media (min-width: 768px){
+    .navbar-nav{
+        float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+}
+
 .down{
 	color: #ffffff;
 	font-family: Helvetica,sans-serif;
@@ -116,7 +184,7 @@ p.medium
 }
 
 .vertical-center:before {    /* create a full-height inline block pseudo=element */
-  content: ' ';
+  content: " ";
   display: inline-block;
   vertical-align: middle;  /* vertical alignment of the inline element */
   height: 100%;
