@@ -1,6 +1,6 @@
 Ivyedges::Application.routes.draw do
   root 'pages#home'
-get "sitemap.xml" => "sitemap#index", as: "sitemap", defaults: { format: "xml"}
+  get "sitemap.xml" => "sitemap#index", as: "sitemap", defaults: { format: "xml"}
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
