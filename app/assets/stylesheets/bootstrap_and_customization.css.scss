@@ -72,28 +72,33 @@ a.brand
 	height: 98%;
 	position: relative;
 	background-image: url("/images/crowd.jpg");
+	overflow: auto;
 }
 
 #two
 {
 	height: 98%;
+	overflow: auto;
 }
 
 #three
 {
 	height: 98%;
 	background-image: url("/images/blur.png");
+	overflow: auto;
 }
 
 #four
 {
 	height: 180%;
+	overflow: auto;
 }
 
 #five
 {
 	height: 98%;
-	background-image: url("/images/gaussian.jpg")
+	background-image: url("/images/gaussian.jpg");
+	overflow: auto;
 }
 
 #six
@@ -105,13 +110,15 @@ a.brand
 #seven
 {
 	height: 98%;
-	background-image: url("/images/dark.jpg")
+	background-image: url("/images/dark.jpg");
+	overflow: auto;
 }
 
 #eight
 {
 	height: 100%;
 	background-color: #ffffff;
+	overflow: auto;
 }
 .vertical-center {
   height:100%;
