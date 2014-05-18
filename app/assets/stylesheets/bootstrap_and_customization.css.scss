@@ -121,19 +121,12 @@ a.brand
 	overflow: auto;
 }
 
-@media (min-width: 768px){
+@media screen and (min-width: 768px){
 	.vertical-center {
+  		display: inline-block;
   		height:100%;
   		width:100%;
   		text-align: center;  /* align the inline(-block) elements horizontally */
-	}
-}
-
-@media (max-width: 767px){
-	.vertical-center {
-		height: 50%;
-		width: 100%;
-		text-align: center;
 	}
 }
 
