@@ -120,10 +120,21 @@ a.brand
 	background-color: #ffffff;
 	overflow: auto;
 }
-.vertical-center {
-  height:100%;
-  width:100%;
-  text-align: center;  /* align the inline(-block) elements horizontally */
+
+@media (min-width: 768px){
+	.vertical-center {
+  		height:100%;
+  		width:100%;
+  		text-align: center;  /* align the inline(-block) elements horizontally */
+	}
+}
+
+@media (max-width: 767px){
+	.vertical-center {
+		height: 50%;
+		width: 100%;
+		text-align: center;
+	}
 }
 
 .bar{
@@ -202,3 +213,9 @@ a.brand
   display: inline-block;
   vertical-align: middle;
   }
+
+  .responsive {
+    max-width:100% !important;
+    height:auto;
+    display:block;
+}
