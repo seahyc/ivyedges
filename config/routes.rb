@@ -1,5 +1,6 @@
 Ivyedges::Application.routes.draw do
   root 'pages#home'
+  get 'thankyou' => 'pages#thankyou'
   resources :sitemaps, :only => :show
   get "sitemap" => "sitemap#show"
 
