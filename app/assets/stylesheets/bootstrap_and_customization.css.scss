@@ -109,7 +109,8 @@ a.brand
 
 #seven
 {
-	height: 98%;
+	height: auto;
+	min-height: 98%;
 	background-image: url("/images/dark.jpg");
 }
 
@@ -185,7 +186,7 @@ a.brand
 	-ms-filter: sepia(0);
 }
 
-@media (min-width: 768px){
+@media (min-width: 760px){
 	.vertical-center {
   		height:100%;
   		width:100%;
