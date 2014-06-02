@@ -69,14 +69,16 @@ a.brand
 
 #one
 {
-	height: 98%;
+//	height: auto;
+	min-height: 110%;
 	position: relative;
 	background-image: url("/images/crowd.jpg");
 }
 
 #two
 {
-	height: 98%;
+	height: auto;
+	min-height: 98%;
 }
 
 #three
